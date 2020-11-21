@@ -1,13 +1,16 @@
 package com.example.parcialactivity;
 
 
+import androidx.annotation.NonNull;
 import androidx.room.PrimaryKey;
 import androidx.room.Entity;
 
-@Entity
+@Entity(tableName ="tablaDB")
 
 public class TablaDB {
-    @PrimaryKey(autoGenerate = true);
+    @PrimaryKey(autoGenerate = true)
+    @NonNull
+    @ColumnInfo(name = "idTabla")
     Long id;
 
     String tvValor;
