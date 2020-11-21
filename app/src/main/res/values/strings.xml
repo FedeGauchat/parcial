@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ParcialActivity</string>
+    <string name="parcial">Parcial D.A.M</string>
+    <string name="texto">Insertar texto</string>
+    <string name="guardarEnBD">Guardar valores</string>
+    <string name="mostrar">Mostrar datos</string>
+</resources>
